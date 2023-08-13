@@ -18,6 +18,8 @@ model
 │   ├── flame_dynamic_embedding.npy
 │   └── flame_static_embedding.pkl
 ```
+链接：https://pan.baidu.com/s/1W5ZOYDnJqSwR33wGQPbVVg?pwd=ok2q 
+提取码：ok2q
 
 ```
 python main.py --flame_model_path model/FLAME2023/flame2023.pkl --static_landmark_embedding_path model/flame_model/flame_static_embedding.pkl --dynamic_landmark_embedding_path model/flame_model/flame_dynamic_embedding.npy
