@@ -2,13 +2,9 @@
 model
 ├── FLAME2017
 │   ├── Readme.pdf
-│   ├── Readme.pdf:Zone.Identifier
 │   ├── female_model.pkl
-│   ├── female_model.pkl:Zone.Identifier
 │   ├── generic_model.pkl
-│   ├── generic_model.pkl:Zone.Identifier
 │   ├── male_model.pkl
-│   └── male_model.pkl:Zone.Identifier
 ├── FLAME2023
 │   ├── FLAME Readme.pdf
 │   ├── flame2023.pkl
@@ -21,8 +17,11 @@ model
 链接：https://pan.baidu.com/s/1W5ZOYDnJqSwR33wGQPbVVg?pwd=ok2q 
 提取码：ok2q
 
-```
-python main.py --flame_model_path model/FLAME2023/flame2023.pkl --static_landmark_embedding_path model/flame_model/flame_static_embedding.pkl --dynamic_landmark_embedding_path model/flame_model/flame_dynamic_embedding.npy
+```bash
+python main.py \
+--flame_model_path model/FLAME2023/flame2023.pkl \
+--static_landmark_embedding_path model/flame_model/flame_static_embedding.pkl \
+--dynamic_landmark_embedding_path model/flame_model/flame_dynamic_embedding.npy
 ```
 
 
